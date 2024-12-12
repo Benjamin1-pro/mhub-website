@@ -20,7 +20,7 @@ function EventPage() {
         return formattedDate;
     }
 
-    const getAllDatas = async (page=0) => {
+    const getAllDatas = async (page = 0) => {
         try {
             setLoader(true)
             const [eventDatas] = await Promise.all([
@@ -36,12 +36,12 @@ function EventPage() {
     }
 
     const getResult = (pages) => {
-		
-		if (!pages) {
-			pages = 0;
-		}
-		getAllDatas(pages);
-	}
+
+        if (!pages) {
+            pages = 0;
+        }
+        getAllDatas(pages);
+    }
 
     useEffect(() => {
         getAllDatas()
@@ -49,65 +49,53 @@ function EventPage() {
 
     return <>
 
-        <section className="breadcrumb-wrap  bg-f br-bg-1">
-            <div className="overlay op-6 bg-black"></div>
-            <div className="container">
-                <div className="row">
-                    <div className="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-10 offset-md-1">
-                        <div className="breadcrumb-title">
-                            <h2>Actualités</h2>
-                            <ul className="breadcrumb-menu">
-                                <li><a href="/">Accueil </a></li>
-                                <li>Actualités</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+        <section class="banner_area">
+            <div class="container">
+                <h6>Actualités</h6>
+                <h2>Liste de nos Actualités</h2>
+                <ol class="breadcrumb">
+                    <li><a href="/">Accueil</a></li>
+                    <li><a href="#">Actualités</a></li>
+                    <li><a href="/events" class="active">Liste de nos Actualités</a></li>
+                </ol>
             </div>
         </section>
+        {/* Banner Area */}
 
-
-        <section className="event-wrap pt-100 pb-100">
-            <div className="container">
-                <div className="row align-items-end">
-                    <div className="col-lg-12">
-                        <div className="section-title style1 text-center mb-40">
-                            <span>Actualités</span>
-                            <h2>Dernières nouvelles</h2>
+        {/* Blog Area */}
+        <section class="blog_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 blog_list">
+                        {/*  blog_items*/}
+                        <div class="blog_items">
+                            <a href="#" class="blog_heding m-0">Les aventures de Noel</a>
+                            <img src="assets/blog.jpg" alt="" />
+                            <h6>25 Decembre 2024 </h6>
+                            <p>Les aventures de Noël sont des récits enchanteurs qui célèbrent la magie de cette période festive. Elles nous transportent souvent dans des mondes féériques où des personnages hauts en couleur vivent des expériences extraordinaires. Qu'il s'agisse du voyage du Père Noël à travers le monde, de contes de fées mettant en scène des créatures magiques, ou d'histoires plus réalistes mettant en avant les valeurs de partage et de générosité, ces récits ont pour but de nous émerveiller et de nous rappeler l'esprit de Noël. Ces aventures, souvent teintées de nostalgie, nous permettent de renouer avec notre enfant intérieur et de croire en la magie de l'impossible. Elles sont un moyen de nous évader du quotidien et de nous plonger dans un univers où tout est possible.</p>
                         </div>
+                        <nav class="pagination_area">
+                            <ul class="pagination">
+                                <li class="page-item disabled"><a class="page-link active" href="#" tabindex="-1">01</a></li>
+                            </ul>
+                        </nav>
                     </div>
-                </div>
-                <div className="row justify-content-md-center">
-                    {eventData.map((item, index) => (
-                        <div key={index} className="col-xl-4 col-lg-6 col-md-6">
-                            <div className="course-card style3">
-                                <div className="course-img">
-                                    <a href={`/single-event/${item.id}`}>
-                                    <img src={`${ImageUrl}/${item.image}`} style={{width:'100%'}} alt="Image" /></a>
-                                    <div className="event-date">
-                                        <i className="las la-calendar-week"></i>{formatDate(item.date_start)}
-                                    </div>
-                                </div>
-                                <div className="course-info">
-                                    <h3><a href={`/single-event/${item.id}`}>{item.title}</a></h3>
-                                </div>
-                                <div className="course-metainfo">
-                                    <div className="course-metainfo-left">
-                                        <p><i className="las la-map-marker-alt"></i>{item.location}</p>
-                                    </div>
-                                    <div className="course-metainfo-right">
-                                        <a href={`/single-event/${item.id}`} className="btn v4">Voir plus</a>
-                                    </div>
-                                </div>
+                    {/* Right Sidebar */}
+                    <div class="blog_rightsidebar col-lg-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search" />
+                            <div class="input-group-append">
+                                <span class="input-group-text"><i class="fa fa-search"></i></span>
                             </div>
                         </div>
-                    ))}
-
-                </div>
-                <div className="row mt-20">
-                    <div className="col-lg-12 text-center">
-                        <div className="paginate mt-3">
-                            <Pagination data={entries} limit={5} onPageChange={getResult} />
+                        <div class="categories post_widget">
+                            <h3>Actualites recentes</h3>
+                            <ul>
+                                <li>
+                                    <h6>25 Dec 2025 : </h6>
+                                    <a href="#" class="heding">Les aventures de noel</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>

@@ -55,81 +55,33 @@ function GlsInnovation() {
 
     return <>
         {/* Banner Area */}
-        <section class="banner_area">
-            <div class="container">
+        <section className="banner_area">
+            <div className="container">
                 <h6>Departements</h6>
                 <h2>GLS Inovation</h2>
-                <ol class="breadcrumb">
-                    <li><a href="index-2.html">Accueil</a></li>
+                <ol className="breadcrumb">
+                    <li><a href="/">Accueil</a></li>
                     <li><a href="#">Departements</a></li>
-                    <li><a href="/gls-inovation" class="active">GLS Inovation</a></li>
+                    <li><a href="/gls-inovation" className="active">GLS Inovation</a></li>
                 </ol>
             </div>
         </section>
         {/* Banner Area */}
 
         {/* Blog Area */}
-        <section class="blog_area" style={{paddingTop:30}}>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-9 blog_list">
+        <section className="blog_area" style={{paddingTop:30, paddingBottom:0}}>
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-9 blog_list">
 
                         {/* Blog_Single */}
-                        <div class="blog_single">
-                            <div class="blog_heding">
+                        <div className="blog_single">
+                            <div className="blog_heding">
                                 <h2>Great Lakes Services Inovation</h2>
                             </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, assumenda in. Recusandae et ipsam commodi neque doloremque ut nostrum in vero nihil aperiam officiis, iure veniam aliquam vitae quas ab. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores quidem quos voluptates dicta voluptatibus debitis deserunt eum, quia consequatur, nisi necessitatibus id velit animi aut eaque magni. Repellat, obcaecati vero.</p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, assumenda in. Recusandae et ipsam commodi neque doloremque ut nostrum in vero nihil aperiam officiis, iure veniam aliquam vitae quas ab. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores quidem quos voluptates dicta voluptatibus debitis deserunt eum, quia consequatur, nisi necessitatibus id velit animi aut eaque magni. Repellat, obcaecati vero.</p>
-                            <img src="assets/images/blog/blog-single-1.jpg" alt="" class="single_img" />
-                            <p>Under legislation the FCA is required to formally consult on rules it proposes to introduce. Consultations must be open and transparent, and the FCA cannot prejudge the result. In order to consult, the FCA must have a sufficient evidence base to build its proposals and develop a cost-benefit analysis, </p>
-                            <h3>Overdrafts</h3>
-                            <p>The FCA believes that the way banks operate and charge for overdrafts needs fundamental reform. In 2016, firms made an estimated £2.3bn in revenue from overdrafts; 30% of this was from unarranged overdrafts.</p>
-                            <img src="assets/images/blog/blog-single-2.jpg" alt="" class="single_img" />
-                            <p>The FCA is putting forward some immediate proposals today for overdrafts that it believes will save customers up to £140mn a year. Beyond that, the FCA will consider more radical options to ban fixed fees and end the distinctions around unarranged overdraft prices.</p>
-                            <p>The conceptual assortment plan is a list of products, or product placeholders, that are planned for a future selling period. The DAS helps planners start building their assortments based on attributes, current styles, or even products still in development with the PLM system. Deloitte’s solution lets marketers develop one integrated assortment representing multiple channel needs, speeding the decision process that surrounds product exposure timing.</p>
-                            <div class="bg_text">
-                                <p>A better solution is needed, one that defines the assortment process and gives retailers the tools they need to optimize assortments.</p>
-                                <a href="#" class="theme_btn">Free Signup</a>
-                            </div>
-                            <p>Once deployed, retailers begin realizing operational benefits that include optimized assortments, assortment visibility, improved inventory, data-driven decision making, and improved efficiency. In addition to operational improvements, we’re seeing an impact in financial results, such as improved sell-through rate, increased sales,</p>
-                            <div class="comments_area">
-                                <h4>0 Comments <span>Barisal Blog</span><a href="#">login</a></h4>
-                                <div class="media">
-                                    <img src="assets/images/blog/author-2.jpg" alt="" />
-                                    <div class="media-body">
-                                        <input type="text" class="form-control" placeholder="Start the discussion" />
-                                        <h6>Login With</h6>
-                                        <ul class="social_login">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#" class="google"><i class="fa fa-google"></i></a></li>
-                                            <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="relevent_post row">
-                                <h3 class="col-12">Other relevent post </h3>
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="post_item">
-                                        <img src="assets/images/blog/relevent-post-1.jpg" alt="" />
-                                        <a href="#">Know the Most Important Secret of Workplace Motivation?</a>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="post_item">
-                                        <img src="assets/images/blog/relevent-post-2.jpg" alt="" />
-                                        <a href="#">Want to Know How Great Managers Motivate Their Employees at Work?</a>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="post_item">
-                                        <img src="assets/images/blog/relevent-post-3.jpg" alt="" />
-                                        <a href="#">Learn the Best Talent Management Practices for a Better Workforce</a>
-                                    </div>
-                                </div>
-                            </div>
+                            <img src="assets/gls_one.jpg" alt="" className="single_img" />
                         </div>
                     </div>
                     {/* Right Sidebar */}
@@ -138,12 +90,53 @@ function GlsInnovation() {
         </section>
         {/* Blog Area */}
 
+        <section className="achieve_financial_area" style={{paddingTop:10, paddingBottom:10}}>
+            <div className="container">
+                <div className="row achieve_inner">
+                    <div className="col-lg-4 col-md-6 wow fadeIn">
+                        <div className="achieve">
+                            <a href="#">La mission de GLS</a>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim nihil fugit error vero perspiciatis. Deserunt consequatur veritatis quae doloribus officia est dignissimos eius ipsum. Dignissimos magnam illum esse quia obcaecati.</p>
+                        </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.3s">
+                        <div className="achieve">
+                            <a href="#">La vision de GLS</a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla earum porro, deserunt neque consequatur ullam, ad dicta dolore vero maxime animi quo ut fuga id sapiente fugiat nihil. Esse, sit?</p>
+                        </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.6s">
+                        <div className="achieve">
+                            <a href="#">Secteur d'activité de GLS</a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eligendi tenetur ab veritatis, iusto quod placeat eum quam quas est accusamus tempore recusandae nisi autem adipisci natus inventore fugit animi!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section className="protfolio_details" style={{paddingTop:20}}>
+    	<div className="container">
+    		<div className="row">
+    			<div className="col-12">
+    				<img src="assets/gls_three.jpg" alt="" /> 
+    			</div> 
+    			<div className="col-lg-7 col-md-6"> 
+					<img src="assets/gls_two.jpg" alt="" className=""/> 
+    			</div>
+    			<div className="col-lg-5 col-md-6">
+					<img src="assets/gls_four.jpg" alt="" className=""/>  
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
         {/* Get started */}
-        <section class="get_started_area">
-            <div class="container">
-                <h2>Ready to get started?</h2>
-                <p>Would recommend Money Me to a friend</p>
-                <a href="#" class="theme_btn">Apply for business loan </a>
+        <section className="get_started_area">
+            <div className="container">
+                <h2>Avec M-hub votre partenaire d'affaire,</h2>
+                <p>Développez votre startup technologique en bénéficiant de notre expertise, de notre réseau et de notre espace de coworking dédié. Nous vous accompagnons à chaque étape de votre croissance pour transformer votre idée en succès</p>
+                <a href="/contact" className="theme_btn">Contactez-nous </a>
             </div>
         </section>
     </>

@@ -54,7 +54,7 @@ function AboutPage() {
         <section className="banner_area">
             <div className="container">
                 <h6>A propos de nous</h6>
-                <h2>Histoire bref de <span>M-Hub</span></h2>
+                <h2>De l'idée à l'impact : <span>le parcours de M-Hub</span></h2>
                 <ol className="breadcrumb">
                     <li><a href="/">Accueil</a></li>
                     <li><a href="/about" className="active">A propos de nous</a></li>
@@ -248,17 +248,17 @@ function AboutPage() {
                 <Carousel nextLabel='' prevLabel='' className="testimonial col-md-12">
                     <div className="row">
                         <div className="item col-md-6">
-                            <a href="#">Benjamin Muthamu ( EASYGO SARL )</a>
+                            <a href="#">Benjamin Muthamu ( CTO )</a>
                             <div className="client_info fast_i">
                                 <img src="/assets/default-user.png" alt="" />
-                                <p>The representative helping me was absolutely fantastic. Not only did I get my loan but she also advised me that she could help me get my credit back No other financial institute </p>
+                                <p>M-hub, c'est bien plus qu'un simple incubateur. C'est une véritable communauté d'entrepreneurs passionnés par la santé. Les échanges avec les autres startups et les événements organisés régulièrement m'ont permis de développer mon réseau et d'acquérir de nouvelles compétences. Je me sens privilégié de faire partie de cette aventure.</p>
                             </div>
                         </div>
                         <div className="item col-md-6">
                             <a href="#">John Smith ( CTO )</a>
                             <div className="client_info">
                                 <img src="/assets/default-user.png" alt="" />
-                                <p>The representative helping me was absolutely fantastic. Not only did I get my loan but she also advised me that she could help me get my credit back No other financial institute </p>
+                                <p>J'ai rejoint M-hub avec une idée de startup en santé, mais sans réelle expérience dans ce domaine. Grâce à l'accompagnement personnalisé et aux conseils avisés de leurs experts, j'ai pu affiner mon projet, trouver les bons partenaires et lancer mon entreprise avec succès. M-hub m'a fourni tous les outils nécessaires pour réussir.</p>
                             </div>
                         </div>
                     </div>
@@ -272,7 +272,7 @@ function AboutPage() {
             <div className="container">
                 <h2>Avec M-hub votre partenaire d'affaire,</h2>
                 <p>Développez votre startup technologique en bénéficiant de notre expertise, de notre réseau et de notre espace de coworking dédié. Nous vous accompagnons à chaque étape de votre croissance pour transformer votre idée en succès</p>
-                <a href="#" className="theme_btn">Contactez-nous </a>
+                <a href="/contact" className="theme_btn">Contactez-nous </a>
             </div>
         </section>
         {/* End get started */}

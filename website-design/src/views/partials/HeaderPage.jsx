@@ -83,15 +83,15 @@ function HeaderPage() {
                                 <li className="dropdown">
                                     <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">Nos Services</a>
                                     <ul className="dropdown-menu">
-                                        <li><a href="/services">Agro-Business</a></li>
-                                        <li><a href="/services">Technologie</a></li>
-                                        <li><a href="/services">Santé </a></li>
+                                        <li><a href="/agro-business">Agro-Business</a></li>
+                                        <li><a href="/technology">Technologie</a></li>
+                                        <li><a href="/sante">Santé </a></li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a className="nav-link" href="#">Actualites</a>
+                                    <a className="nav-link" href="/events">Actualités</a>
                                 </li>
-                                <li><a className="theme_btn" href="#">Contactez-nous</a></li>
+                                <li><a className="theme_btn" href="/contact">Contactez-nous</a></li>
                             </ul>
                         </div>
                     </nav>

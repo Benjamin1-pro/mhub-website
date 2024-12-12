@@ -14,6 +14,10 @@ import AboutPage from './views/pages/AboutPage';
 import SingleEventPage from './views/single-pages/SingleEventPage';
 import GlsInnovation from './views/pages/departements/GlsInnovation';
 import KtaAcademy from './views/pages/departements/KtaAcademy';
+import SafetyPlus from './views/pages/departements/SafetyPlus';
+import AgroBusiness from './views/pages/services/AgroBusiness';
+import Technologie from './views/pages/services/Technologie';
+import Sante from './views/pages/services/Sante';
 
 let headers = {
   "Content-Type": "application/json",
@@ -37,6 +41,10 @@ function App() {
             <Route element={<DefaultRoute />}>
               <Route path="/" index element={<HomePage />} />
               <Route path='/gls-inovation' element={<GlsInnovation />} />
+              <Route path='/agro-business' element={<AgroBusiness />} />
+              <Route path='/technology' element={<Technologie />} />
+              <Route path='/sante' element={<Sante />} />
+              <Route path='/safety-plus' element={<SafetyPlus />} />
               <Route path='/kta-academy' element={<KtaAcademy />} />
               <Route path='/events' element={<EventPage />} />
               <Route path='/contact' element={<ContactPage />} />

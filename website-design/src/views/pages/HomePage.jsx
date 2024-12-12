@@ -69,7 +69,7 @@ function HomePage() {
                                 <h2 className="slider-heading concept_title">Lancez votre entreprise a Goma avec M-Hub</h2>
                                 <p className='slider-description'>Bénéficiez de notre expertise, de notre réseau et de notre financement pour transformer votre projet innovant en une entreprise prospère en RDC.</p>
                                 <div className="get_started_btn" id="slide-1-layer-6" >
-                                    <a href="#" className="theme_btn apply_btn">Contactez-nous</a>
+                                    <a href="/contact" className="theme_btn apply_btn">Contactez-nous</a>
                                 </div>
                             </div>
                         </div>
@@ -82,7 +82,7 @@ function HomePage() {
                                 <h2 className="slider-heading concept_title">Notre incubateur est votre partenaire</h2>
                                 <p className='slider-description'>Rejoignez notre communauté d'entrepreneurs passionnés et créatifs pour co-construire l'avenir économique de la RDC.</p>
                                 <div className="get_started_btn" id="slide-1-layer-5" >
-                                    <a href="#" className="theme_btn apply_btn">Contactez-nous</a>
+                                    <a href="/contact" className="theme_btn apply_btn">Contactez-nous</a>
                                 </div>
                             </div>
                         </div>
@@ -147,32 +147,32 @@ function HomePage() {
         {/* About Area  */}
 
         <section className="achieve_financial_area">
-        <div className="container">
-            <div className="row achieve_inner">
-                <div className="col-lg-4 col-md-6 wow fadeIn">
-                    <div className="achieve"> 
-                        <a href="#">Notre mission</a>
-                        <p>Sa mission est de fournir un environnement propice au développement des entreprises à travers des services innovants, des infrastructures 
-                            modernes, et un soutien personnalisé, favorisant ainsi la croissance économique et la création d’emplois dans la région.</p>
+            <div className="container">
+                <div className="row achieve_inner">
+                    <div className="col-lg-4 col-md-6 wow fadeIn">
+                        <div className="achieve">
+                            <a href="#">Notre mission</a>
+                            <p>Sa mission est de fournir un environnement propice au développement des entreprises à travers des services innovants, des infrastructures
+                                modernes, et un soutien personnalisé, favorisant ainsi la croissance économique et la création d’emplois dans la région.</p>
+                        </div>
                     </div>
-                </div>
-                <div className="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.3s">
-                    <div className="achieve">
-                        <a href="#">Notre vision</a>
-                        <p>Devenir le leader en matière d'accompagnement des PME en RDC, en offrant des services 
-                            complets et intégrés pour soutenir la création, le développement, et la pérennisation des entreprises.</p>
+                    <div className="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.3s">
+                        <div className="achieve">
+                            <a href="#">Notre vision</a>
+                            <p>Devenir le leader en matière d'accompagnement des PME en RDC, en offrant des services
+                                complets et intégrés pour soutenir la création, le développement, et la pérennisation des entreprises.</p>
+                        </div>
                     </div>
-                </div>
-                <div className="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.6s">
-                    <div className="achieve">
-                        <a href="#">Secteur d'activité</a>
-                        <p>Le StartUp Centre M-Hub opère dans le secteur mixte innovants, avec une offre diversifiée 
-                            d'espaces de travail et de services mutualisés conçus pour répondre aux besoins variés des entrepreneurs des PME.</p>
+                    <div className="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.6s">
+                        <div className="achieve">
+                            <a href="#">Secteur d'activité</a>
+                            <p>Le StartUp Centre M-Hub opère dans le secteur mixte innovants, avec une offre diversifiée
+                                d'espaces de travail et de services mutualisés conçus pour répondre aux besoins variés des entrepreneurs des PME.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
         {/* services Process*/}
         <div className="application_process" style={{ marginTop: 90 }}>
@@ -186,8 +186,8 @@ function HomePage() {
                         <div className="step_item">
                             <h3>Agro-Business</h3>
                             <img src="/assets/images/icons/loan-1.png" alt="" />
-                            <p>Avec nos encadreurs bien experimentés nous encadrons la jeunesse dans l'agro-business de la creation du projet a sa fin.</p>
-                            <a href="#" className="theme_btn">Voir Plus</a>
+                            <p>Nous offrons un accompagnement sur mesure à chaque jeune, les aidant à concrétiser leurs projets agro-alimentaires de A à Z.</p>
+                            <a href="/agro-business" className="theme_btn">Voir Plus</a>
                         </div>
                     </div>
                     {/* Step */}
@@ -195,8 +195,8 @@ function HomePage() {
                         <div className="step_item">
                             <h3>Technologie</h3>
                             <img src="/assets/images/icons/loan-8.png" alt="" />
-                            <p className='mb-4'>Nous encadrons les startups qui euvrent dans la technologie a mieux s'organiser et les orienter vers un avenir plus digital.</p>
-                            <a href="#" className="theme_btn">Voir Plus</a>
+                            <p className='mb-4'>Nous accompagnons les startups technologiques dans leur développement et les guidons vers une transformation numérique plus poussée.</p>
+                            <a href="/technology" className="theme_btn">Voir Plus</a>
                         </div>
                     </div>
                     {/* Step */}
@@ -204,8 +204,8 @@ function HomePage() {
                         <div className="step_item">
                             <h3>Santé</h3>
                             <img src="/assets/images/icons/loan-7.png" alt="" />
-                            <p className='mb-3'>Vous avez des embitions pour enover dans la santé? M-hub est la pour vous avec tout ce dont vous avez besoin pour commencer votre activité.</p>
-                            <a href="#" className="theme_btn">Voir Plus</a>
+                            <p className='mb-3'>Vous rêvez de révolutionner le secteur de la santé ? M-hub vous offre tout ce dont vous avez besoin pour lancer votre startup.</p>
+                            <a href="/sante" className="theme_btn">Voir Plus</a>
                         </div>
                     </div>
                 </div>
@@ -216,8 +216,8 @@ function HomePage() {
         <section className="latest_news_area">
             <div className="container">
                 <div className="tittle la">
-                <h2>Ce qui se passe dans notre communauté d'entrepreneurs <span>passionnés et créatifs</span> </h2>
-                    <a href="#" className="theme_btn">Voir toutes nos actualités</a>
+                    <h2>Ce qui se passe dans notre communauté d'entrepreneurs <span>passionnés et créatifs</span> </h2>
+                    <a href="/events" className="theme_btn">Voir toutes nos actualités</a>
                 </div>
                 <div className="row">
                     {/* latest_news */}
@@ -226,7 +226,7 @@ function HomePage() {
                         <a href="#" className="heding">Les aventures de Noel</a>
                         <h6>25 Decembre 2024</h6>
                         <p>Celebrons noel ensemble avec l'equipe de Kta Academy dans nos locaux a partir de 10h.</p>
-                        <a href="#" className="red_more">Plus de details</a>
+                        <a href="/events" className="red_more">Plus de details</a>
                     </div>
                 </div>
             </div>
@@ -242,22 +242,20 @@ function HomePage() {
                 </div>
                 <Carousel nextLabel='' prevLabel='' className="testimonial col-md-12">
                     <div className="row">
-                    <div className="item col-md-6">
-                        <a href="#">Benjamin Muthamu ( EASYGO SARL )</a>
-                        <div className="client_info fast_i">
-                            <img src="/assets/default-user.png" alt="" />
-                            <h4>Financial health</h4>
-                            <p>The representative helping me was absolutely fantastic. Not only did I get my loan but she also advised me that she could help me get my credit back No other financial institute </p>
-                        </div>
+                        <div className="item col-md-6">
+                            <a href="#">Benjamin Muthamu ( CTO )</a>
+                            <div className="client_info fast_i">
+                                <img src="/assets/default-user.png" alt="" />
+                                <p>M-hub, c'est bien plus qu'un simple incubateur. C'est une véritable communauté d'entrepreneurs passionnés par la santé. Les échanges avec les autres startups et les événements organisés régulièrement m'ont permis de développer mon réseau et d'acquérir de nouvelles compétences. Je me sens privilégié de faire partie de cette aventure.</p>
+                            </div>
                         </div>
                         <div className="item col-md-6">
-                        <a href="#">John Smith ( CTO )</a>
-                        <div className="client_info">
-                            <img src="/assets/default-user.png" alt="" />
-                            <h4>Financial health</h4>
-                            <p>The representative helping me was absolutely fantastic. Not only did I get my loan but she also advised me that she could help me get my credit back No other financial institute </p>
+                            <a href="#">John Smith ( CTO )</a>
+                            <div className="client_info">
+                                <img src="/assets/default-user.png" alt="" />
+                                <p>J'ai rejoint M-hub avec une idée de startup en santé, mais sans réelle expérience dans ce domaine. Grâce à l'accompagnement personnalisé et aux conseils avisés de leurs experts, j'ai pu affiner mon projet, trouver les bons partenaires et lancer mon entreprise avec succès. M-hub m'a fourni tous les outils nécessaires pour réussir.</p>
+                            </div>
                         </div>
-                    </div>
                     </div>
                 </Carousel>
             </div>
@@ -269,7 +267,7 @@ function HomePage() {
             <div className="container">
                 <h2>Avec M-hub votre partenaire d'affaire,</h2>
                 <p>Développez votre startup technologique en bénéficiant de notre expertise, de notre réseau et de notre espace de coworking dédié. Nous vous accompagnons à chaque étape de votre croissance pour transformer votre idée en succès</p>
-                <a href="#" className="theme_btn">Contactez-nous </a>
+                <a href="/contact" className="theme_btn">Contactez-nous </a>
             </div>
         </section>
         {/* End get started */}

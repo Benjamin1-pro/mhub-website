@@ -54,26 +54,25 @@ function FooterPage() {
                     <div className="footer_widget col-xl-2 col-md-4 col-sm-5 wow fadeIn" data-wow-delay="0.2s">
                         <h4>DEPARTEMENTS</h4>
                         <ul className="footer_nav">
-                            <li><a href="#">Incubateur M-hub</a></li>
-                            <li><a href="#">Kta Academy</a></li>
-                            <li><a href="#">GLS Inovation</a></li>
+                            <li><a href="/safety-plus">Safety Plus</a></li>
+                            <li><a href="/kta-academy">Kta Academy</a></li>
+                            <li><a href="/gls-inovation">GLS Inovation</a></li>
                         </ul>
                     </div>
                     <div className="footer_widget col-xl-2  col-md-3 col-sm-4 wow fadeIn" data-wow-delay="0.4s">
                         <h4>NOS SERVICES</h4>
                         <ul className="footer_nav">
-                            <li><a href="#">Agro-business</a></li>
-                            <li><a href="#">Technologie</a></li>
-                            <li><a href="#">Santé</a></li>
+                            <li><a href="/agro-business">Agro-business</a></li>
+                            <li><a href="/technology">Technologie</a></li>
+                            <li><a href="/sante">Santé</a></li>
                         </ul>
                     </div>
                     <div className="footer_widget col-xl-2  col-md-4 col-sm-4 wow fadeIn" data-wow-delay="0.8s">
                         <h4>Nos pages </h4>
                         <ul className="footer_nav">
-                            <li><a href="#">Accueil</a></li>
-                            <li><a href="#">A propos de nous</a></li>
-                            <li><a href="#">Nos services</a></li>
-                            <li><a href="#">Actualités</a></li>
+                            <li><a href="/">Accueil</a></li>
+                            <li><a href="/about">A propos de nous</a></li>
+                            <li><a href="/events">Actualités</a></li>
                         </ul>
                     </div>
                     <div className="footer_widget col-xl-2  col-md-5 col-sm-4 wow fadeIn" data-wow-delay="0.6s">

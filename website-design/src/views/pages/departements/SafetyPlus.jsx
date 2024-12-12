@@ -3,7 +3,7 @@ import { MainContext } from "../../../routes/MainContext";
 import { getCourseData, getTeamData, getTemoignageData } from "../../../controllers/MainController";
 import Pagination from "../../../pagination/Pagination";
 
-function KtaAcademy() {
+function SafetyPlus() {
     const { setLoader } = useContext(MainContext);
     const [courseData, setCourseData] = useState([])
     const [entries, setEntries] = useState([]);
@@ -58,11 +58,11 @@ function KtaAcademy() {
         <section className="banner_area">
             <div className="container">
                 <h6>Departements</h6>
-                <h2>Kta Academy</h2>
+                <h2>Safety Plus</h2>
                 <ol className="breadcrumb">
                     <li><a href="/">Accueil</a></li>
                     <li><a href="#">Departements</a></li>
-                    <li><a href="/kta-academy" className="active">Kta Academy</a></li>
+                    <li><a href="/safety-plus" className="active">Safety Plus</a></li>
                 </ol>
             </div>
         </section>
@@ -77,11 +77,22 @@ function KtaAcademy() {
                         {/* Blog_Single */}
                         <div className="blog_single">
                             <div className="blog_heding">
-                                <h2>Kandy Training Academy</h2>
+                                <h2>Safety Plus</h2>
                             </div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, assumenda in. Recusandae et ipsam commodi neque doloremque ut nostrum in vero nihil aperiam officiis, iure veniam aliquam vitae quas ab. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores quidem quos voluptates dicta voluptatibus debitis deserunt eum, quia consequatur, nisi necessitatibus id velit animi aut eaque magni. Repellat, obcaecati vero.</p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, assumenda in. Recusandae et ipsam commodi neque doloremque ut nostrum in vero nihil aperiam officiis, iure veniam aliquam vitae quas ab. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores quidem quos voluptates dicta voluptatibus debitis deserunt eum, quia consequatur, nisi necessitatibus id velit animi aut eaque magni. Repellat, obcaecati vero.</p>
-                            <img src="assets/kta1.jpg" alt="" className="single_img" />
+                            <div className="row">
+                                <div className="col-lg-6 col-md-6">
+                                    <img src="assets/safety_four.jpg" alt="" className="single_img" />
+                                </div>
+                                <div className="col-lg-6 col-md-6">
+                                    <img src="assets/safety_one.jpg" alt="" className="single_img" />
+                                </div>
+                            </div>
+                            <div className="col-md-12">
+                                <img src="assets/safety_six.jpg" alt="" className="single_img" />
+                            </div>
+                            
                         </div>
                     </div>
                     {/* Right Sidebar */}
@@ -95,19 +106,19 @@ function KtaAcademy() {
                 <div className="row achieve_inner">
                     <div className="col-lg-4 col-md-6 wow fadeIn">
                         <div className="achieve">
-                            <a href="#">La mission de Kta</a>
+                            <a href="#">La mission de Safety Plus</a>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim nihil fugit error vero perspiciatis. Deserunt consequatur veritatis quae doloribus officia est dignissimos eius ipsum. Dignissimos magnam illum esse quia obcaecati.</p>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.3s">
                         <div className="achieve">
-                            <a href="#">La vision de Kta</a>
+                            <a href="#">La vision de Safety Plus</a>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla earum porro, deserunt neque consequatur ullam, ad dicta dolore vero maxime animi quo ut fuga id sapiente fugiat nihil. Esse, sit?</p>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.6s">
                         <div className="achieve">
-                            <a href="#">Secteur d'activité de Kta</a>
+                            <a href="#">Secteur d'activité de Safety Plus</a>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius eligendi tenetur ab veritatis, iusto quod placeat eum quam quas est accusamus tempore recusandae nisi autem adipisci natus inventore fugit animi!</p>
                         </div>
                     </div>
@@ -119,13 +130,13 @@ function KtaAcademy() {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <img src="assets/kta2.jpg" alt="" />
+                        <img src="assets/safety_two.jpg" alt="" />
                     </div>
                     <div className="col-lg-7 col-md-6">
-                        <img src="assets/kta3.jpg" alt="" className="" />
+                        <img src="assets/safety_four.jpg" alt="" className="" />
                     </div>
                     <div className="col-lg-5 col-md-6">
-                        <img src="assets/kta5.jpg" alt="" className="" />
+                        <img src="assets/safety_five.jpg" alt="" className="" />
                     </div>
                 </div>
             </div>
@@ -142,4 +153,4 @@ function KtaAcademy() {
     </>
 }
 
-export default KtaAcademy;
+export default SafetyPlus;
