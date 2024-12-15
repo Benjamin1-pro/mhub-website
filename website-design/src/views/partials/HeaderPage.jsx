@@ -73,20 +73,15 @@ function HeaderPage() {
                                 </li>
                                 <li><a className="nav-link" href="/about">A propos</a></li>
                                 <li className="dropdown">
-                                    <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">Departements</a>
-                                    <ul className="dropdown-menu">
-                                        <li><a href="/gls-inovation">GLS Inovation</a></li>
-                                        <li><a href="/safety-plus">Safety Plus</a></li>
-                                        <li><a href="/kta-academy">Kta Academy</a></li>
-                                    </ul>
-                                </li>
-                                <li className="dropdown">
-                                    <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">Nos Services</a>
+                                    <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">Incubation</a>
                                     <ul className="dropdown-menu">
                                         <li><a href="/agro-business">Agro-Business</a></li>
                                         <li><a href="/technology">Technologie</a></li>
-                                        <li><a href="/sante">Santé </a></li>
+                                        <li><a href="/sante">Santé numérique</a></li>
                                     </ul>
+                                </li>
+                                <li className="dropdown">
+                                    <a className="nav-link dropdown-toggle" href="/kta-academy" role="button" data-toggle="dropdown" aria-expanded="false">Kta Academy</a>
                                 </li>
                                 <li>
                                     <a className="nav-link" href="/events">Actualités</a>

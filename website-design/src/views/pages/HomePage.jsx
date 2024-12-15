@@ -93,23 +93,6 @@ function HomePage() {
         </section>
         {/* End Slider Area */}
 
-        {/* Achieve your financial */}
-        <section className="achieve_financial_area">
-            <div className="container">
-                <div className="tittle">
-                    <img src="/assets/images/icons/banker.png" alt="" />
-                    <h2>Vous avez une idée géniale ? <span>Nous vous aidons à la concrétiser.</span></h2>
-                </div>
-                <div className="row achieve_inner">
-                    <div className="col-12 personal_tittle">
-                        <p>Le StartUp Centre M-Hub s'engage à être un partenaire stratégique pour les entrepreneurs et les PME en République Démocratique du Congo.</p>
-                        <a href="/contact" className="theme_btn">Rejoignez-nous</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        {/* Achieve your financial */}
-
         {/* About Area */}
         <section className="previous_record_area">
             <div className="previous_img">
@@ -146,33 +129,31 @@ function HomePage() {
         </section>
         {/* About Area  */}
 
-        <section className="achieve_financial_area">
-            <div className="container">
-                <div className="row achieve_inner">
-                    <div className="col-lg-4 col-md-6 wow fadeIn">
-                        <div className="achieve">
-                            <a href="#">Notre mission</a>
-                            <p>Sa mission est de fournir un environnement propice au développement des entreprises à travers des services innovants, des infrastructures
-                                modernes, et un soutien personnalisé, favorisant ainsi la croissance économique et la création d’emplois dans la région.</p>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.3s">
-                        <div className="achieve">
-                            <a href="#">Notre vision</a>
-                            <p>Devenir le leader en matière d'accompagnement des PME en RDC, en offrant des services
-                                complets et intégrés pour soutenir la création, le développement, et la pérennisation des entreprises.</p>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.6s">
-                        <div className="achieve">
-                            <a href="#">Secteur d'activité</a>
-                            <p>Le StartUp Centre M-Hub opère dans le secteur mixte innovants, avec une offre diversifiée
-                                d'espaces de travail et de services mutualisés conçus pour répondre aux besoins variés des entrepreneurs des PME.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <section className="how_it_work">
+    	<div className="container">
+    		<div className="media step_m">
+    			<div className="media-body">
+    				<h3>Notre mission</h3>
+    				<h6>Sa mission est de fournir un environnement propice au développement des entreprises à travers des services innovants, des infrastructures
+                    modernes, et un soutien personnalisé, favorisant ainsi la croissance économique et la création d’emplois dans la région.</h6>
+    			</div>
+    		</div>
+    		<div className="media step_m sm_2">
+    			<div className="media-body">
+    				<h3>Notre vision</h3>
+    				<h6>Devenir le leader en matière d'accompagnement des PME en RDC, en offrant des services
+                    complets et intégrés pour soutenir la création, le développement, et la pérennisation des entreprises.</h6>
+    			</div>
+    		</div>
+    		<div className="media step_m sm_3">
+    			<div className="media-body">
+    				<h3>Secteur d'activité</h3>
+    				<h6>Le StartUp Centre M-Hub opère dans le secteur mixte innovants, avec une offre diversifiée
+                    d'espaces de travail et de services mutualisés conçus pour répondre aux besoins variés des entrepreneurs des PME.</h6>
+    			</div>
+    		</div>
+    	</div>
+    </section>
 
         {/* services Process*/}
         <div className="application_process" style={{ marginTop: 90 }}>
@@ -213,21 +194,23 @@ function HomePage() {
         </div>
 
         {/* blog Area */}
-        <section className="latest_news_area">
+        <section className="portfolio_area">
             <div className="container">
-                <div className="tittle la">
-                    <h2>Ce qui se passe dans notre communauté d'entrepreneurs <span>passionnés et créatifs</span> </h2>
+            <div className="tittle la text-center">
+                    <h2 className='mb-3'>Ce qui se passe dans notre communauté d'entrepreneurs <span>passionnés et créatifs</span> </h2>
                     <a href="/events" className="theme_btn">Voir toutes nos actualités</a>
                 </div>
-                <div className="row">
-                    {/* latest_news */}
-                    <div className="col-lg-4 col-md-6 latest_news wow fadeIn" data-wow-delay="0.6s">
-                        <a href="#" className="latest_img"><img src="/assets/blog.jpg" alt="" /></a>
-                        <a href="#" className="heding">Les aventures de Noel</a>
-                        <h6>25 Decembre 2024</h6>
-                        <p>Celebrons noel ensemble avec l'equipe de Kta Academy dans nos locaux a partir de 10h.</p>
-                        <a href="/events" className="red_more">Plus de details</a>
-                    </div>
+                <div className='row portfoli_inner'>
+                <div className="col-lg-4 col-md-6 personal debt home other"> 
+                    <div className="portfolio_item">
+						<a href="#" className="portfolio_img"><img src="/assets/blog.jpg" alt="" /></a>
+                   		<div className="portfolio_content">
+                   			<a href="#" className="heding">Les aventures de Noel</a>
+                   			<p>Celebrons noel ensemble avec l'equipe de Kta Academy dans nos locaux a partir de 10h.</p>
+                   			<a href="#" className="learn_more">Plus de details</a>
+                   		</div>
+                    </div> 
+                </div> 
                 </div>
             </div>
         </section>
