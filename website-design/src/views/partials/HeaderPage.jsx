@@ -80,8 +80,8 @@ function HeaderPage() {
                                         <li><a href="/sante">Santé numérique</a></li>
                                     </ul>
                                 </li>
-                                <li className="dropdown">
-                                    <a className="nav-link dropdown-toggle" href="/kta-academy" role="button" data-toggle="dropdown" aria-expanded="false">Kta Academy</a>
+                                <li>
+                                    <a className="nav-link" href="/kta-academy">Kta Academy</a>
                                 </li>
                                 <li>
                                     <a className="nav-link" href="/events">Actualités</a>

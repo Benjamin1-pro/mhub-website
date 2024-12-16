@@ -1,6 +1,7 @@
 import { useContext, useEffect, useState } from "react"
 import { MainContext } from "../../routes/MainContext"
 import Carousel from 'react-bootstrap/Carousel';
+import '../../assets/about.css'
 import { getAboutData, getEventsData, getPartnersData, getTeamData, getTemoignageData } from "../../controllers/MainController";
 
 function AboutPage() {
@@ -64,19 +65,34 @@ function AboutPage() {
         {/* Banner Area */}
 
         {/* Achieve your financial */}
-        <section className="achieve_financial_area">
-            <div className="container">
-                <div className="row achieve_inner">
-                    <div className="col-lg-12 col-md-12 wow fadeIn">
-                        <div className="achieve">
-                            <a href="#" style={{ textAlign: 'center' }}>M-hub Startup Center</a>
-                            <p style={{ maxWidth: '100%', textAlign: 'left', marginBottom:10 }}>Originaire de la République Démocratique du Congo, Chrispin Mutuga Muhigirwa a forgé une solide expérience professionnelle en Europe, notamment à Manchester, où il a résidé pendant plus de deux décennies. Ce parcours à l'étranger, riche en réussites, n'a pas étouffé son profond attachement à ses racines. Guidé par un désir ardent de redonner à son pays d'origine, il a fait le choix courageux de revenir en RDC pour y développer des projets entrepreneuriaux ambitieux. Son objectif ? Transformer son pays et concrétiser ses aspirations les plus profondes.</p>
-                            <p style={{ maxWidth: '100%', textAlign: 'left',marginBottom:10 }}>En RDC, Chrispin s'est lancé dans l'aventure entrepreneuriale avec les moyens du bord. Confronté à un manque de ressources financières et à l'absence d'un réseau d'appui solide, il a fait preuve d'une résilience exceptionnelle. Son objectif ? Inspirer les jeunes Congolais en leur montrant qu'avec de la détermination, de la créativité et un esprit de persévérance, il est possible de concrétiser ses ambitions entrepreneuriales, même dans un contexte économique difficile.</p>
-                            <p style={{ maxWidth: '100%', textAlign: 'left', marginBottom:10 }}>Son parcours entrepreneurial a débuté de manière humble, en proposant des services de nettoyage à domicile. Confronté à des contraintes financières et à un scepticisme ambiant, il a fait preuve d'une détermination sans faille. Ses efforts ont fini par payer, lui permettant de fonder Great Lakes Services (GLS), une entreprise prospérant dans le secteur du nettoyage. Fort de cette première réussite, il a étendu ses activités en créant Safety Plus, spécialisée dans la sécurité incendie. Aujourd'hui, GLS emploie plus de 70 personnes et Safety Plus une dizaine, illustrant ainsi le succès de son modèle économique et son rôle de leader inspirant.</p>
-                            <p style={{ maxWidth: '100%', textAlign: 'left',marginBottom:10 }}>Fort de ses succès entrepreneuriaux, Chrispin a identifié un besoin crucial en RDC : soutenir le développement des PME, notamment dans des régions comme Goma, confrontées à de multiples défis. C’est ainsi qu’est né Mutuga Hub (M-Hub) en 2023. Ce centre a pour ambition de fournir aux entrepreneurs les outils et l’accompagnement nécessaires pour transformer leurs idées en projets concrets, démontrant ainsi que l’entrepreneuriat est un levier puissant pour le développement économique et social.</p>
-                            <p style={{ maxWidth: '100%', textAlign: 'left',marginBottom:10 }}>M-Hub a vu le jour avec l'ambition de créer un espace de coworking dynamique où les jeunes entrepreneurs de Goma pourraient se rencontrer, échanger et développer leurs projets. Le centre s'est rapidement positionné comme un acteur clé de l'innovation locale en se concentrant sur des secteurs porteurs tels que l'agrobusiness, le numérique et la culture créative. En soutenant des initiatives répondant aux besoins spécifiques de la communauté, M-Hub contribue à stimuler l'économie locale et à renforcer le tissu entrepreneurial.</p>
-                            <p style={{ maxWidth: '100%', textAlign: 'left',marginBottom:10 }}>M-Hub s'est rapidement imposé comme un acteur incontournable de l'écosystème entrepreneurial congolais. Ce n'est plus seulement un espace de coworking, mais un véritable incubateur d'idées où les jeunes talents peuvent donner vie à leurs projets. Chrispin Mutuga Muhigirwa, à travers son histoire personnelle et son engagement indéfectible, démontre que l'entrepreneuriat est un levier puissant pour le développement de la RDC. Il inspire une nouvelle génération d'entrepreneurs à croire en leurs rêves et à contribuer à bâtir un avenir meilleur pour leur pays.</p>
-                        </div>
+
+        <section className="purpose_area">
+            <div className="container" style={{ marginTop: 145 }}>
+                <div className="media mission">
+                    <img src="assets/about_one.jpg" style={{ width: 300 }} alt="" />
+                    <div className="media-body">
+                        <h2 className="p-0">M-hub Startup Center</h2>
+                        <p>Originaire de la République Démocratique du Congo, Chrispin Mutuga Muhigirwa a forgé une solide expérience professionnelle en Europe, notamment à Manchester, où il a résidé pendant plus de deux décennies. Ce parcours à l'étranger, riche en réussites, n'a pas étouffé son profond attachement à ses racines. Guidé par un désir ardent de redonner à son pays d'origine, il a fait le choix courageux de revenir en RDC pour y développer des projets entrepreneuriaux ambitieux. Son objectif ? Transformer son pays et concrétiser ses aspirations les plus profondes.</p>
+                        <p>En RDC, Chrispin s'est lancé dans l'aventure entrepreneuriale avec les moyens du bord. Confronté à un manque de ressources financières et à l'absence d'un réseau d'appui solide, il a fait preuve d'une résilience exceptionnelle. Son objectif ? Inspirer les jeunes Congolais en leur montrant qu'avec de la détermination, de la créativité et un esprit de persévérance, il est possible de concrétiser ses ambitions entrepreneuriales, même dans un contexte économique difficile.</p>
+                    </div>
+                </div>
+                <div className="vision">
+                    <div className="d-flex justify-content-center">
+                        <p>Son parcours entrepreneurial a débuté de manière humble, en proposant des services de nettoyage à domicile. Confronté à des contraintes financières et à un scepticisme ambiant, il a fait preuve d'une détermination sans faille. Ses efforts ont fini par payer, lui permettant de fonder Great Lakes Services (GLS), une entreprise prospérant dans le secteur du nettoyage. Fort de cette première réussite, il a étendu ses activités en créant Safety Plus, spécialisée dans la sécurité incendie. Aujourd'hui, GLS emploie plus de 70 personnes et Safety Plus une dizaine, illustrant ainsi le succès de son modèle économique et son rôle de leader inspirant.</p>
+                    </div>
+                    <div className="about-test d-flex justify-content-center">
+                        <p>Fort de ses succès entrepreneuriaux, Chrispin a identifié un besoin crucial en RDC : soutenir le développement des PME, notamment dans des régions comme Goma, confrontées à de multiples défis. C’est ainsi qu’est né Mutuga Hub (M-Hub) en 2023. Ce centre a pour ambition de fournir aux entrepreneurs les outils et l’accompagnement nécessaires pour transformer leurs idées en projets concrets, démontrant ainsi que l’entrepreneuriat est un levier puissant pour le développement économique et social.</p>
+                    </div>
+                </div>
+
+                <img src="assets/about_two.jpg" style={{ width: '100%' }} alt="" />
+
+                <div className="vision vision-description">
+                    <div className="d-flex justify-content-center">
+                        <p>M-Hub a vu le jour avec l'ambition de créer un espace de coworking dynamique où les jeunes entrepreneurs de Goma pourraient se rencontrer, échanger et développer leurs projets. Le centre s'est rapidement positionné comme un acteur clé de l'innovation locale en se concentrant sur des secteurs porteurs tels que l'agrobusiness, le numérique et la culture créative. En soutenant des initiatives répondant aux besoins spécifiques de la communauté, M-Hub contribue à stimuler l'économie locale et à renforcer le tissu entrepreneurial.</p>
+                    </div>
+                    <div className="about-test d-flex justify-content-center">
+                        <p>M-Hub s'est rapidement imposé comme un acteur incontournable de l'écosystème entrepreneurial congolais. Ce n'est plus seulement un espace de coworking, mais un véritable incubateur d'idées où les jeunes talents peuvent donner vie à leurs projets. Chrispin Mutuga Muhigirwa, à travers son histoire personnelle et son engagement indéfectible, démontre que l'entrepreneuriat est un levier puissant pour le développement de la RDC. Il inspire une nouvelle génération d'entrepreneurs à croire en leurs rêves et à contribuer à bâtir un avenir meilleur pour leur pays.</p>
                     </div>
                 </div>
             </div>

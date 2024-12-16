@@ -183,7 +183,7 @@ function HomePage() {
                     {/* Step */}
                     <div className="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.6s">
                         <div className="step_item">
-                            <h3>Santé</h3>
+                            <h3>Santé numérique</h3>
                             <img src="/assets/images/icons/loan-7.png" alt="" />
                             <p className='mb-3'>Vous rêvez de révolutionner le secteur de la santé ? M-hub vous offre tout ce dont vous avez besoin pour lancer votre startup.</p>
                             <a href="/sante" className="theme_btn">Voir Plus</a>

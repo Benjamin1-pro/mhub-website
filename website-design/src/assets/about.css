@@ -1,0 +1,37 @@
+.vision {
+    position: relative;
+    
+}
+
+.vision::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('../../public/assets/bottom-right.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    z-index: -10;
+}
+
+
+
+.vision-description {
+    position: relative;
+    
+}
+
+.vision-description::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('../../public/assets/left-top.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+    z-index: -10;
+}
