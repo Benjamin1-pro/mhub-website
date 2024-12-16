@@ -67,7 +67,7 @@ function HomePage() {
                             <div className="slider-content">
                                 <h2 className="slider_sm_heding">Nous vous accompagnons...</h2>
                                 <h2 className="slider-heading concept_title">Lancez votre entreprise a Goma avec M-Hub</h2>
-                                <p className='slider-description'>Bénéficiez de notre expertise, de notre réseau et de notre financement pour transformer votre projet innovant en une entreprise prospère en RDC.</p>
+                                <p className='slider-description'>Bénéficiez de notre expertise, de notre réseau et de notre accompagnement pour transformer votre projet innovant en une entreprise prospère en RDC.</p>
                                 <div className="get_started_btn" id="slide-1-layer-6" >
                                     <a href="/contact" className="theme_btn apply_btn">Contactez-nous</a>
                                 </div>
@@ -94,7 +94,7 @@ function HomePage() {
         {/* End Slider Area */}
 
         {/* About Area */}
-        <section className="previous_record_area">
+        <section className="previous_record_area" data-wow-delay="0.3s">
             <div className="previous_img">
                 <img src="/assets/about.jpg" alt="" />
             </div>
@@ -129,7 +129,7 @@ function HomePage() {
         </section>
         {/* About Area  */}
 
-        <section className="how_it_work">
+        <section className="how_it_work" data-wow-delay="0.3s">
     	<div className="container">
     		<div className="media step_m">
     			<div className="media-body">
